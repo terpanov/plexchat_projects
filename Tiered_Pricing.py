@@ -134,4 +134,6 @@ report_actual.index = ['MAU_actual', 'revenue_actual', 'variable_cost_actual', '
 
 print(report_actual)
 
+pricing.df_to_sheet(report_actual, sheet='Output')
+
 
